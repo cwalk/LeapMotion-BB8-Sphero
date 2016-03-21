@@ -1,0 +1,21 @@
+{
+  "name": "leapmotion",
+  "version": "1.0.0",
+  "description": "Leap Motion projects with BB8 version of Sphero, using Bluetooth Low Energy (BLE).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cwalk/LeapMotion-BB8-Sphero"
+  },
+  "author": "Clayton Walker",
+  "license": "ISC",
+  "dependencies": {
+    "cylon": "^1.2.0",
+    "cylon-ble": "^0.10.0",
+    "cylon-leapmotion": "^0.20.0",
+    "cylon-sphero-ble": "^0.11.0"
+  }
+}
