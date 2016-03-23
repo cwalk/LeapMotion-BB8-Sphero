@@ -6,7 +6,7 @@ Leap Motion projects with BB8 version of Sphero, using Bluetooth Low Energy (BLE
 
 YouTube:
 
-## Setup
+## Code Setup
 
 Make sure you have nodejs and npm installed.
 
@@ -19,6 +19,10 @@ Install cylonjs, a robotics javascript framework. More info here: https://cylonj
 Clone the directory: `git clone https://github.com/cwalk/LeapMotion-BB8-Sphero`
 
 Navigate to the directory and do an `npm install` and you should have cylon, cylon-ble, cylon-sphero-ble, and cylon-leapmotion.
+
+## BB8 Setup
+
+This code will only work with the 
 
 ## Usage
 
