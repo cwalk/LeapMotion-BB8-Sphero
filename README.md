@@ -36,7 +36,7 @@ You can set the heading in the mobile app, as the blinking blue light. I set it 
 
 Run the files by using the command `node filename.js`
 
-`test.js` and `color.js` are just test files in me trying to get BB8 to work through BLE. Feel free to use them as starting points to understand how BB8 works.
+The main file is `sphero-leap.js`. The `test.js` and `color.js` files are just test files in me trying to get BB8 to work through BLE. Feel free to use them as starting points to understand how BB8 works.
 
 ## Control
 
