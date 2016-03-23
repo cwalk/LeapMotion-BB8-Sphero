@@ -20,6 +20,8 @@ Clone the directory: `git clone https://github.com/cwalk/LeapMotion-BB8-Sphero`
 
 Navigate to the directory and do an `npm install` and you should have cylon, cylon-ble, cylon-sphero-ble, and cylon-leapmotion.
 
+For more info on Leap Motion, check out: http://cylonjs.com/documentation/drivers/leapmotion/
+
 ## BB8 Setup
 
 This code will only work with the 
