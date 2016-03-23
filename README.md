@@ -26,8 +26,17 @@ Navigate to the directory and do an `npm install` and you should have cylon, cyl
 
 ## BB8 Setup
 
-This code will only work with the 
+This code will only work with the BB-8 version of Sphero. It uses Bluetooth Low Energy (BLE) to communicate, as opposed to the Sphero that uses Bluetooth classic. I have not yet tested this on the Sphero Ollie, but for that, you should check out: http://cylonjs.com/documentation/drivers/ollie/ and see what the differences are, if any.
+
+BB8 comes with it's own mobile app, that allows you to instantly connect and drive BB8 with your phone, as long as you have Bluetooth on. This is important to know because you need to set the **heading** of BB8 correctly, as the code in this repo is all based off a specific heading. 
+
+You can set the heading in the mobile app, as the blinking blue light. I set it directly behind BB8. So if BB8's head is facing away from me, and the back of his head is facing me, the blue light should also be facing me. This allows me to move BB8 with the Leap Motion, in relation to where my hand is. If it ever looks like BB8 is going the wrong way, you might need to stop the script, and reopen the mobile app to reset his heading.
 
 ## Usage
 
 Run the files by using the command `node filename.js`
+
+
+
+
+## Control
