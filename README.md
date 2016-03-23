@@ -36,7 +36,18 @@ You can set the heading in the mobile app, as the blinking blue light. I set it 
 
 Run the files by using the command `node filename.js`
 
-
-
+`test.js` and `color.js` are just test files in me trying to get BB8 to work through BLE. Feel free to use them as starting points to understand how BB8 works.
 
 ## Control
+
+Below is a diagram of how BB8 should move, in relation to your hand being over the Leap Motion.
+
+If your hand is at a vlaue of at least 200 on the Y axis as interpretted by the Leap Motion, BB8 will stop moving, and turn white. BB8 will also stop moving if the Leap Motion can't see your hand at all.
+
+If your hand is below 200 on the Y-axis, then depending on where your hand is in the X and Z axes, you can move BB8 in 8 different directions. You can use your hand like a giant joystick, and see how BB8 follows where your hand is in relation to the Leap Motion. I also make BB8 change a different color for each of the 8 directions, so it's easier to see which direction he is heading. Also it helps for troubleshooting if his heading gets messed up (example: red means straight forward, so if BB8 turns red but starts going right, that means his heading needs to be reset, otherwise he wont exactly follow your hand correctly, everything has been shifted).
+
+![BB8 Control Diagram](/BB8 Control.jpg?raw=true "BB8 Control Diagram")
+
+## Gesture Support
+
+BB8 supports 1 gesture, the circle gesture. If you have your hand above 200 on the Y axis, BB8 will stop moving and turn white. But if you do a circle motion with your finger while above 200, this will activate "Party Mode" on BB8, and make him spin in place and change colors randomly, as long as you continue doing the circle motion. It's quite fun!
