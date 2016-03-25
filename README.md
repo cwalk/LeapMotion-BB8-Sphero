@@ -4,7 +4,7 @@ Leap Motion projects with BB8 version of Sphero, using Bluetooth Low Energy (BLE
 
 ## YouTube
 
-YouTube:
+YouTube: https://www.youtube.com/playlist?list=PLgAD2y-6wgwr6kyU8Qx4wdFeWmvL66oAT
 
 ## Code Setup
 
